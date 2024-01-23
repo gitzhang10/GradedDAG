@@ -1,3 +1,4 @@
+### 1. Install all dependencies
 #### 1.1 Install go
 ```
 sudo apt-get update
