@@ -1,0 +1,17 @@
+- hosts: BFT
+  remote_user: root
+  tasks:
+    - name: delete the BFT directory
+      shell: rm -rf /home/root/BFT{{item}}
+      loop:
+        - 0
+      when: (ansible_hostname is not match "node0")
+
+    - name: delete the BFT directory
+      shell: rm -rf /home/root/BFT{{item}}
+      loop:
+        - 0
+      when: (ansible_hostname is match "node0")
+
+    - name: clean the testbed directory
+      shell: rm -rf /home/root/testbed

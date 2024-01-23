@@ -1,0 +1,26 @@
+- hosts: BFT
+  remote_user: root
+  tasks:
+    - name: fetch the results
+      fetch:
+        src: /root/testbed/{{inventory_hostname}}_{{item}}.txt
+        dest: /vagrant/result/
+      loop:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+      when: (ansible_hostname is not match "node0")
+
+    - name: fetch the results
+      fetch:
+        src: /root/testbed/{{inventory_hostname}}_{{item}}.txt
+        dest: /vagrant/result/
+      loop:
+        - 0
+        - 1
+        - 2
+        - 3
+      when: (ansible_hostname is match "node0")
+

@@ -1,0 +1,8 @@
+- hosts: BFT
+  remote_user: root
+  gather_facts: false
+  tasks:
+    - name: kill BFT
+      shell: killall BFT
+      ignore_errors: yes
+

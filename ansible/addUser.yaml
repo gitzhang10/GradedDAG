@@ -1,0 +1,10 @@
+- hosts: BFT
+  remote_user: root
+  tasks:
+    - name: create user
+      user:
+        name: "{{ item.user }}"
+        password: "{{ item.pass | password_hash('sha512')}}"    #采用哈希加密
+        state: present
+      loop:
+        - { user: bft, pass: Aaqcdag2023}

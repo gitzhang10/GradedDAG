@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76a530d5-63d4-4242-9aa9-8e7af8f41826" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="2KGSlGZHhDxOCflliHygP1f8FEO" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestWith4Nodes in github.com/gitzhang10/BFT/qcdag">
+    <configuration name="TestThreshold in github.com/gitzhang10/BFT/fork0" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="BFT" />
+      <working_directory value="$PROJECT_DIR$/fork0" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/gitzhang10/BFT/fork0" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestThreshold$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWith4Nodes in github.com/gitzhang10/BFT/qcdag (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="BFT" />
+      <working_directory value="$PROJECT_DIR$/qcdag" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/gitzhang10/BFT/qcdag" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWith4Nodes$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWith4Nodes in github.com/gitzhang10/BFT/qcdag" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="BFT" />
+      <working_directory value="$PROJECT_DIR$/qcdag" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/gitzhang10/BFT/qcdag" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWith4Nodes$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWith4Nodes in github.com/gitzhang10/BFT/tusk (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="BFT" />
+      <working_directory value="$PROJECT_DIR$/tusk" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/gitzhang10/BFT/tusk" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWith4Nodes$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWith4Nodes in github.com/gitzhang10/BFT/tusk" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="BFT" />
+      <working_directory value="$PROJECT_DIR$/tusk" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/gitzhang10/BFT/tusk" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWith4Nodes$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestWith4Nodes in github.com/gitzhang10/BFT/qcdag" />
+        <item itemvalue="Go Test.TestThreshold in github.com/gitzhang10/BFT/fork0" />
+        <item itemvalue="Go Test.TestWith4Nodes in github.com/gitzhang10/BFT/qcdag (2)" />
+        <item itemvalue="Go Test.TestWith4Nodes in github.com/gitzhang10/BFT/tusk" />
+        <item itemvalue="Go Test.TestWith4Nodes in github.com/gitzhang10/BFT/tusk (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io,direct</proxy>
+  </component>
+</project>
