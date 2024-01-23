@@ -38,7 +38,7 @@ ansible -i ./hosts bit -m authorized_key -a "user=vagrant key='{{lookup('file', 
 ```
 ##### 2.2.2 Configure servers via ansible
 ```
-ansible-playbook conf-server.yaml -i hosts
+ansible-playbook copyconfig.yaml -i hosts
 ```
 ##### 2.2.3 Run servers via ansible
 ```
