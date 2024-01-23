@@ -32,9 +32,9 @@ go run main.go
 #### 2.2 Run
 Now you should enter the ansible directory to take the next operations.You need to change the `ansible/hosts` first.
 ##### 2.2.1 Login without passwords
-The code below need some change
+The code below may need some change
 ```
-ansible -i ./hosts bit -m authorized_key -a "user=vagrant key='{{lookup('file', '/home/vagrant/.ssh/id_rsa.pub')}}' path='/home/vagrant/.ssh/authorized_keys' manage_dir=no" --ask-pass -c paramiko
+ansible -i ./hosts BFT -m authorized_key -a "user=root key='{{lookup('file', '/home/root/.ssh/id_rsa.pub')}}' path='/home/root/.ssh/authorized_keys' manage_dir=no" --ask-pass -c paramiko
 ```
 ##### 2.2.2 Configure servers via ansible
 ```
