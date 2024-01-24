@@ -38,6 +38,7 @@ ansible -i ./hosts BFT -m authorized_key -a "user=root key='{{lookup('file', '/h
 ```
 ##### 2.2.2 Configure servers via ansible
 ```
+ansible-playbook copycode.yaml -i hosts
 ansible-playbook copyconfig.yaml -i hosts
 ```
 ##### 2.2.3 Run servers via ansible
