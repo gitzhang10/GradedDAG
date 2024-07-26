@@ -5,7 +5,7 @@ This project is used to implement GradedDAG.You can learn more about GradedDAG i
 ### 1. Machine types
 Machines are divided into two types:
 - *WorkComputer*: just configure `servers` at the initial stage, particularly via `ansible` tool. 
-- *Servers*: run daemons of `Wahoo`, communicate with each other via P2P model.
+- *Servers*: run daemons of `GradedDAG`, communicate with each other via P2P model.
 
 ### 2. Precondition
 - Recommended OS releases: Ubuntu 18.04 (other releases may also be OK)
