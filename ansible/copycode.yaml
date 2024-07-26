@@ -7,10 +7,6 @@
         dest: /root/BFT{{item}}/
       loop:
         - 0
-        - 1
-        - 2
-        - 3
-        - 4
       when: (ansible_hostname is not match "node0")
 
     - name: clone BFT
@@ -19,26 +15,16 @@
         dest: /root/BFT{{item}}/
       loop:
         - 0
-        - 1
-        - 2
-        - 3
       when: (ansible_hostname is match "node0")
 
     - name: chmod BFT
       shell: chmod +x /root/BFT{{item}}/BFT
       loop:
         - 0
-        - 1
-        - 2
-        - 3
-        - 4
       when: (ansible_hostname is not match "node0")
 
     - name: chmod BFT
       shell: chmod +x /root/BFT{{item}}/BFT
       loop:
         - 0
-        - 1
-        - 2
-        - 3
       when: (ansible_hostname is match "node0")

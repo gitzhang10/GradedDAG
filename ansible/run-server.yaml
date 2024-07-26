@@ -12,9 +12,6 @@
         chdir: /root/BFT{{item}}
       loop:
         - 0
-        - 1
-        - 2
-        - 3
       when: (ansible_hostname is match "node0")
 
     - name: run BFT as a daemon
@@ -23,8 +20,10 @@
         chdir: /root/BFT{{item}}
       loop:
         - 0
-        - 1
-        - 2
-        - 3
-        - 4
       when: (ansible_hostname is not match "node0")
+
+    # - name: test net_flow
+    #   shell: "(nohup iftop -t -P -N -n -s 150 > /root/net_flow.txt 2>&1 &)"
+    #   args:
+    #     chdir: /root/
+    #   when: (ansible_hostname is match "node0")

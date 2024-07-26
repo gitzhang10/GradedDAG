@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gitzhang10/BFT/config"
-	"github.com/gitzhang10/BFT/qcdag"
+	"github.com/gitzhang10/BFT/gradeddag"
 )
 
 var conf *config.Config
@@ -20,27 +20,28 @@ func init() {
 }
 
 func main() {
-	if conf.Protocol == "qcdag" {
-		startQCDAG()
+	if conf.Protocol == "gradeddag" {
+		startGradedDAG()
 	} else {
 		panic(errors.New("the protocol is unknown"))
 	}
 }
 
-func startQCDAG() {
-	node := qcdag.NewNode(conf)
+func startGradedDAG() {
+	node := gradeddag.NewNode(conf)
 	if err = node.StartP2PListen(); err != nil {
 		panic(err)
 	}
 	// wait for each node to start
-	time.Sleep(time.Second * 15)
+	time.Sleep(time.Second * 5)
 	if err = node.EstablishP2PConns(); err != nil {
 		panic(err)
 	}
 	node.InitCBC(conf)
-	fmt.Println("node starts the QCDAG!")
+	fmt.Println("node starts the GradedDAG!")
 	go node.RunLoop()
 	go node.HandleMsgLoop()
 	go node.CBCOutputBlockLoop()
 	node.DoneOutputLoop()
+
 }

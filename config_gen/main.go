@@ -56,7 +56,7 @@ func main() {
 	}
 
 	leaderCount := 1  // the number of nodes in first machine
-	ProcessCount := 2 // the number of nodes in other machines
+	ProcessCount := 1 // the number of nodes in other machines
 
 	// deal with cluster as a string map
 	ClusterMapInterface := viperRead.GetStringMap("IPs")

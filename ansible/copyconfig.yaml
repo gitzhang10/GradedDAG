@@ -7,10 +7,6 @@
         dest: /root/BFT{{item}}/config.yaml
       loop:
         - 0
-        - 1
-        - 2
-        - 3
-        - 4
       when: ansible_hostname is not match "node0"
 
     - name: copy configuration file
@@ -19,8 +15,5 @@
         dest: /root/BFT{{item}}/config.yaml
       loop:
         - 0
-        - 1
-        - 2
-        - 3
       when: (ansible_hostname is match "node0")
 
