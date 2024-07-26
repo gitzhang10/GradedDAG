@@ -1,5 +1,5 @@
 ## Description
-This project is used to implement Tusk, GradedDAG and Wahoo.You can learn more about wahoo in our *Wahoo: A DAG-based BFT Consensus with Low Latency and Communication Overhead* paper.
+This project is used to implement GradedDAG.You can learn more about GradedDAG in our *GradedDAG: An Asynchronous DAG-based BFT Consensus with Lower Latency* paper.
 
 ## Usage
 ### 1. Machine types
